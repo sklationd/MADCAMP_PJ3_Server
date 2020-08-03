@@ -1,11 +1,19 @@
-PJ3_Server
+# PJ3_Server
+This repository is about dockerized nodejs server and mongodb of my 3rd project in MADCAMP. MongoDB and NodeJS server containers are connected with docker-compose. You can install dependencies with `./install.sh` scripts and run with `./run.sh`.
 
-### Install docker-compose
+### Installing dependencies and configuration
 ```bash
 $ sudo ./install.sh
 ```
 
-### run the container
+### Run the container
 ```bash
 $ ./run.sh
 ```
+
+### Used Stack
+- docker
+- docker-compose
+- mongodb (with mongoose)
+- nodejs
+- firebase
